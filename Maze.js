@@ -13,8 +13,8 @@ await speak("Start", true);
 
 //Blue: Checkpoint 1
 async function startProgram() {
-	await roll(0, 50, 5)
-	await delay (3)
+	await roll(0, 50, 3)
+	await delay (1)
 	setMainLed({ r: 0, g: 0, b: 255 });
 }
 
